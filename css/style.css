@@ -1,0 +1,79 @@
+body{
+    /* make all text lucida grande w/ sans-serif fallback, with text being white with black background*/
+    font-family:"Lucida Grande", sans-serif; 
+    background-color: black;
+    color: white;
+  }
+  h1{
+    font-size: 64px;    
+    text-align: center;
+  }
+  h2{
+      /* headers need to be 32px, w/ black drop shadow that is offset 4px horizontally/ vertically 
+      and 2px blur */
+      font-size: 32px;
+      text-shadow: 4px 4px 2px black;
+    
+  }
+  p{
+    font-size: 16px;
+    padding-top: 15px;
+  }
+
+  #intro {
+      padding: 30px;
+      min-height: 100px;
+  }
+  
+  #red {
+      /* needs to be 100px tall with 30px padding on all sides */
+      padding: 30px;
+      background-color: red; 
+      text-align: right;   
+      min-height: 100px;   
+  }
+
+  #blue {
+      /* background color needs to be blue and text needs to be aligned on the left */
+      background-color: blue;
+      text-align: left;
+      padding: 30px;
+      min-height: 100px;
+  }
+
+  #yellow {
+      /* background color needs to be yellow, text aligned on right, text is black and drop shaow
+      is gray with same parameters as other drop shadow text */
+      background-color: yellow;
+      text-align: right;
+      color: black;
+      padding: 30px;
+      min-height: 100px;
+  }
+
+  #yellow h2 {
+    text-shadow: 4px 4px 2px grey;
+  }
+
+  #green {
+      /* background color needs to be green with text aligned on right */
+      background-color: green;
+      text-align: left;
+      padding: 30px;
+      min-height: 100px;
+  }
+
+  img{
+    display: block;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+  }
+  
+  footer{
+    /* style the footer so it has a black background and white text */
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
